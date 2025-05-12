@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+    --color-background: #c8c3ac;
+    --color-outline-500: #6b6a61;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cinzel;
+}
+
+body {
+    background-color: #111;
+}
