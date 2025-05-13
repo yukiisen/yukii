@@ -1,18 +1,103 @@
 @import 'tailwindcss';
-@plugin '@tailwindcss/typography';
 
 @theme {
     --color-background: #c8c3ac;
+    --color-background-900: #aca692;
     --color-outline-500: #6b6a61;
+    --color-text: #686458;
+    --color-danger: #cd664d;
 }
 
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family: cinzel;
 }
 
 body {
-    background-color: #111;
+    background-color: var(--color-background);
+}
+
+h1 {
+    text-shadow: 4px 4px 0px #0004;
+    font-size: 36px;
+    font-family: "cinzel decorative";
+}
+
+h2 {
+    text-shadow: 4px 4px 0px #0004;
+    font-family: "cinzel decorative";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+}
+
+article p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article.sub {
+    padding-left: 5px;
+}
+
+article a {
+    font-weight: 600;
+}
+
+
+@layer utilities {
+  .list-element::before {
+    content: "✦";
+    margin-right: 0.5rem;
+    color: var(--color-accent);
+    display: inline-block;
+  }
+
+  @media (width >= 48rem) {
+        article.sub {
+            padding-left: 20px;
+        }
+
+        .before-deco {
+            position: relative;
+            left: 20px;
+        }
+
+        .before-deco::before {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 100%;
+            color: var(--color-background-900);
+            border-left: 2px solid transparent;
+            background-color: var(--color-background-900);
+            left: -20px;
+        }
+  }
+
+  @media (width <= 48rem) {
+        h1 {
+            font-size: 26px !important;
+        }
+
+        h2 {
+            font-size: 20px !important;
+        }
+
+        p {
+            font-size: 16px !important;
+        }
+
+        .mobile-hide {
+            display: none;
+        }
+  }
 }

@@ -1,0 +1,66 @@
+.md pre {
+    background-color: var(--color-text);
+    color: var(--color-background);
+    padding: 10px;
+    overflow: auto;
+}
+
+.md code {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.md :not(pre) > code {
+    background-color: var(--color-text);
+    color: var(--color-background);
+    padding: 3px;
+}
+
+.md h1::before, .md h2::before, .md h3::before, .md h4::before {
+    content: "✦";
+    margin-right: 0.5rem;
+    color: var(--color-accent);
+    display: inline-block;
+}
+
+.md li {
+    margin-left: 15px;
+}
+
+.md p, .md h3, .md h2 {
+    margin: 5px 0;
+}
+
+.md h4, .md h1 {
+    margin: 15px 0 0px;
+}
+
+.md h4:has(+ pre) {
+    margin: 15px 0 5px;
+}
+
+.md h4 + * {
+    margin-top: 0;
+}
+
+.md h4 {
+    font-weight: bold;
+}
+
+.md p {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.md ul li::before {
+    content: "✦";
+    margin-right: 0.5rem;
+    color: var(--color-accent); /* Or any color */
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.md th, .md td {
+    border: 1px solid var(--color-text);
+    padding: 3px;
+}

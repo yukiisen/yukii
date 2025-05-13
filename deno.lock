@@ -2106,6 +2106,7 @@
         "npm:eslint-plugin-svelte@3",
         "npm:eslint@^9.18.0",
         "npm:globals@16",
+        "npm:marked@15.0.8",
         "npm:svelte-check@4",
         "npm:svelte@5",
         "npm:tailwindcss@4",
