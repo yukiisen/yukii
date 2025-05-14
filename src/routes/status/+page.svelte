@@ -16,7 +16,7 @@
 <h1 class="before-deco">{ header }|</h1>
 
 <article class="before-deco">
-    <p>this page is inspired by the now page from <a href="/">That guy</a>, its purpose is to hold my random impossible projects and show what's going on with me right now.</p>
+    <p>this page is inspired by the now page from <a href="https://nownownow.com/about">That guy</a>, its purpose is to hold my random impossible projects and show what's going on with me right now.</p>
 </article>
 
 <article class="sub before-deco">
