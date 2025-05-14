@@ -36,7 +36,7 @@
 
     <div class="flex fixed z-3 md:relative w-full md:w-fit bottom-0 left-0 items-start">
         {#each tabs as [path, title]}
-            <a href={path} class="font-medium flex-1 md:flex-none relative bg-background-900 w-30 duration-200 text-sm md:text-base" class:active={(current.split("/")[1] || '') == path.slice(1)}>
+            <a href={path} class="font-medium flex-1 md:flex-none relative bg-background-900 w-30 duration-200 text-xs md:text-base" class:active={(current.split("/")[1] || '') == path.slice(1)}>
                 <span class="relative z-2 block text-center md:text-left py-1 md:p-0">{title}</span>
                 <span class="absolute w-0 h-full bg-text bottom-0.5 left-0 z-1 block"></span>
                 <span class="absolute w-0 h-full bottom-0.5 left-0 z-1 block"></span>
