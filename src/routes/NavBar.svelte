@@ -16,7 +16,7 @@
     let title = $derived(config.name + " - " + tabs.findLast(t => current.startsWith(t[0]))?.[1]);
 
     onMount(async () => {
-        const res = await fetch("/api/views");
+        const res = await fetch("https://yukiisen.up.railway.app/api/views", { credentials: "include" });
         const data = await res.json();
 
         views = data.views;

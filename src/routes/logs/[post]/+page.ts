@@ -10,11 +10,12 @@ export const load: PageLoad = async ({ params }) => {
 
     try {
         const res = await fetch(`/blogs/${post}.md`);
+        if (res.status !== 200) return kit.error(res.status, res.statusText);
         const readme = await res.text();
 
         const html = marked(readme);
         return { html, post };
-    } catch (error) {
-        kit.error(404, String(error));
+    } catch (error: any) {
+        kit.error(error.status, String(error.body.message));
     }
 }

@@ -4,14 +4,34 @@
     import config from "$lib/config";
 
     let fHeader = "Bunker";
-    let header = $state(fHeader[0]); 
+    let header = $state(fHeader[0]);
+
+    let email = $state("");
+    let topic = $state("");
+    let message = $state("");
+    let error = $state("");
 
     onMount(async () => {
         for (const letter1 of fHeader.split("").slice(1)) {
             header += letter1;
             await sleep(50);
         }
-    })
+    });
+
+    const sendMessage = async () => {
+        const body = { email, topic, message };
+        const res = await fetch("https://yukiisen.up.railway.app/api/contact", {
+            method: "POST",
+            body: JSON.stringify(body),
+        });
+
+        if (res.status == 200) {
+            error = "Message Sent Successfully!";
+        } else {
+            const body = await res.json();
+            error = body.error;
+        }
+    }
 </script>
 
 <h1 class="before-deco mb-2">{ header }|</h1>
@@ -20,15 +40,16 @@
         <p>I'm not quite good at human interactions but you can contact me here anyway</p>
         <p>Note that messages are very limited so keep in mind that you can't send more than one per day</p>
     </div>
-    <form class="md:flex-4 md:pr-6 text-gl">
+    <form class="md:flex-4 md:pr-6 text-gl" on:submit|preventDefault={sendMessage}>
         <label for="mail" class="block my-1">email:</label>
-        <input required type="email" placeholder="someone@gmail.com" class="p-1 w-full border-2 border-text invalid:border-danger invalid:border-2 invalid:text-danger focus:outline-0" id="mail">
+        <input bind:value={email} required type="email" placeholder="someone@gmail.com" class="p-1 w-full border-2 border-text invalid:border-danger invalid:border-2 invalid:text-danger focus:outline-0" id="mail">
         <label for="topic" class="block my-1">Topic:</label>
-        <input required type="text" placeholder="Anything?" class="p-1 border-2 w-full border-text invalid:border-danger invalid:border-2 invalid:text-danger focus:outline-0" id="topic">
+        <input bind:value={topic} required type="text" placeholder="Anything?" class="p-1 border-2 w-full border-text invalid:border-danger invalid:border-2 invalid:text-danger focus:outline-0" id="topic">
         <label for="msg" class="block my-1">Message:</label>
-        <textarea rows="4" required placeholder="Let's talk about" class="resize-none p-1 border-2 w-full border-text invalid:border-danger invalid:border-2 invalid:text-danger focus:outline-0" id="msg"></textarea>
+        <textarea bind:value={message} rows="4" required placeholder="Let's talk about" class="resize-none p-1 border-2 w-full border-text invalid:border-danger invalid:border-2 invalid:text-danger focus:outline-0" id="msg" maxlength="1000"></textarea>
 
         <input type="submit" value="Send Message" class="w-full bg-text text-background p-2 my-2">
+        <label class="w-full block text-center">{ error }</label>
     </form>
 </article>
 

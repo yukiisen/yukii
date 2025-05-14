@@ -75,8 +75,7 @@
 <article class="sub before-deco">
     <h2 class="list-element">Special Thanks to:</h2>
     <ul class="ml-4 md:ml-10 my-2">
-        <li class="list-element"><a href="https://pixelll.is-a.dev/" target="_blank">Pixel:</a> For understanding my random yapping about tech</li>
-        <li class="list-element"><a href="https://instagram.com/kuro.mi_13" target="_blank">Kuro:</a> For having a big thing</li>
+        <li class="list-element"><a href="https://www.instagram.com/kuro.tsuki.39/" target="_blank">Kuro:</a> for having a high biomass</li>
     </ul>
 </article>
 
