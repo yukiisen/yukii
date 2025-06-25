@@ -10,4 +10,4 @@ For some reason, we only get to eat it in ramadan which is a very bad habit sinc
 ## Why should we stand against that?
 Bourak is for everyone, we must enjoy out lifes in halal way so that we don't end up with bad habits, bourak shouldn't be tied to a specific place or time, we all must share this amazing thing in order to live together in harmony..
 
-<center>*Bourak for a better life*</center>
+**<center>Bourak for a better life</center>**

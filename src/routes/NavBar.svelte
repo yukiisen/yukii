@@ -12,7 +12,7 @@
     ]
 
     let current = $derived(page.url.pathname);
-    let views = $state(0);
+    let views = $state('0');
     let title = $derived(config.name + " - " + tabs.findLast(t => current.startsWith(t[0]))?.[1]);
 
     onMount(async () => {
