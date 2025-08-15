@@ -32,6 +32,8 @@
             <li class="list-element text-base">Rust</li>
             <li class="list-element text-base">Javascript/Typescript (bun)</li>
             <li class="list-element text-base">Dart</li>
+            <li class="list-element text-base">C/C++</li>
+            <li class="list-element text-base">Assembly (linux x86_64)</li>
             <li class="list-element text-base">HTML/CSS (Pug/Sass)</li>
             <li class="list-element text-base">SQL</li>
         </ul>
@@ -42,12 +44,15 @@
             <li class="list-element text-base">Svelte</li>
             <li class="list-element text-base">Basic React</li>
             <li class="list-element text-base">Express.JS</li>
+            <li class="list-element text-base">Elysia</li>
             <li class="list-element text-base">Actix</li>
             <li class="list-element text-base">Sveltekit</li>
             <li class="list-element text-base">Flutter</li>
             <li class="list-element text-base">Electron</li>
+            <li class="list-element text-base">Capacitor</li>
             <li class="list-element text-base">Tailwind CSS</li>
             <li class="list-element text-base">Phaser.Js</li>
+            <li class="list-element text-base">OpenGL</li>
         </ul>
 
         <ul class="flex-1">
