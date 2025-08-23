@@ -77,6 +77,31 @@
     </p>
 </article>
 
+<article class="sub before-deco mb-2">
+    <h2 class="list-element">More about moi:</h2>
+    <p>
+        Yuki dayo~, I study math in highschool since we don't have more interesting stuff, I like what I like which is probably tech and music (why do I find this everywhere?), I've been writing programs since I was 11 although none of them is descent for me :)
+    </p>
+    <h2 class="list-element">What I do?</h2>
+    <p>
+        I can likely pick up any language as long as it's not complicated and is not java so talking about that is useless.. well.. I make stuff.. likely give up on them quickly and pick up new stuff, maybe I should stop doing that.. it's unhealthy, also I study math in my free time so that I can bully unversity students.
+    </p>
+    <h2 class="list-element">What brings me joy?</h2>
+    <p>
+        <a href="https://osu.ppy.sh">Osu</a> of course, I started playing only a week ago and it's already taking all my time :), I also like touching grass and reading stuff, I spawn on instagram a lot since.. well.. I have to talk, right?
+    </p>
+    <h2 class="list-element">My Setup:</h2>
+    <ul class="ml-8">
+        <li class="list-element text-base">Tmux</li>
+        <li class="list-element text-base">St/foot</li>
+        <li class="list-element text-base">dwm/swayfx</li>
+        <li class="list-element text-base">firefox</li>
+        <li class="list-element text-base">nvim</li>
+        <li class="list-element text-base">mpv</li>
+    </ul>
+    <p>I'm switching to wayland though..</p>
+</article>
+
 <article class="sub before-deco">
     <h2 class="list-element">Special Thanks to:</h2>
     <ul class="ml-4 md:ml-10 my-2">
