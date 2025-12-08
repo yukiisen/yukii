@@ -16,6 +16,7 @@
         { name: "Herta", repo: "herta", description: "An AI bot that can chat with your friends instead of you." },
         { name: "Svr", repo: "svr", description: "A minimal static http server cli built from scratch in rust" },
         { name: "Stress", repo: "stress", description: "an http library built from scratch in rust." },
+        { name: "Kiri", repo: "kiri", description: "A fast and small fuzzy finder for the terminal." },
     ]
 
     onMount(async () => {
