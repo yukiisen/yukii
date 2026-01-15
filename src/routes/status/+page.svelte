@@ -21,20 +21,20 @@
 
 <article class="sub before-deco">
     <h2 class="list-element">So what's going on with me recently?</h2>
-    <!-- <p>Literally nothing, I have a lot of free time so I suppose it's better to use it for something useful</p> -->
-    <p>I'm suffering from opengl and the devils inside my head who're telling me to create something in assembly, maybe I'll make a tui file manager in nostd c instead.</p>
-    <p>I'm also totally addicted to osu!, I even see it in my dreams :)</p>
+    <p>I'm busy with my tests now, but I'm still working on some projects in my free time.</p>
+    <p>I'm currently trying to speed up the development of tomu in order to have a better music player.</p>
 </article>
 
 <article class="sub before-deco">
     <h2 class="list-element">So what do I plan to do?</h2>
     <ul class="ml-4 my-2">
-        <li class="list-element text-base">Finish the anime website that've been waiting for about five months now (given up almost).</li>
+        <!-- <li class="list-element text-base">Finish the anime website that've been waiting for about five months now (given up almost).</li> -->
         <li class="list-element text-base">Make an AI waifu.. um..</li>
-        <li class="list-element text-base">Finish learning opengl so that I can try vulkan.</li>
         <li class="list-element text-base">rebuild my horrible http server</li>
         <li class="list-element text-base">try to make a fun game (and a nice game engine).</li>
         <li class="list-element text-base">build a nice-ish scripting language.</li>
-        <li class="list-element text-base">build a federated chess website (although I'm kinda lazy for that).</li>
+        <li class="list-element text-base">build some sort of kernel.</li>
+        <li class="list-element text-base">Maybe make a story driven game as well.</li>
+        <li class="list-element text-base">Build stuff in zig until I hate it.</li>
     </ul>
 </article>

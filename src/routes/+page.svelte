@@ -16,10 +16,10 @@
 <h1 class="before-deco">{ header }|</h1>
 <article class="before-deco">
     <p>
-        Hi! I'm <b>Yuki</b>— a developer who enjoys building random stuff and likes things that are minimal, well-structured, and a little unconventional, Nice to have you here!
+        Hi! I'm <b>Yuki</b>— a developer makes some stuff, I also play osu a lot.. like a really a lot!, Nice to have you here!
     </p>
     <p>
-        I love full stack web development and I'm always ready to explore new technologies!
+        I love low level stuff and I'm always happy to see the entire tech community burn due to bad engineers and bad decisions!
     </p>
 </article>
 
@@ -30,12 +30,14 @@
         <ul class="flex-1">
             <h3>Languages:</h3>
             <li class="list-element text-base">Rust</li>
-            <li class="list-element text-base">Javascript/Typescript (bun)</li>
+            <li class="list-element text-base">Javascript/Typescript (bun/node)</li>
             <li class="list-element text-base">Dart</li>
+            <li class="list-element text-base">Python</li>
+            <li class="list-element text-base">Zig</li>
             <li class="list-element text-base">C/C++</li>
             <li class="list-element text-base">Assembly (linux x86_64)</li>
             <li class="list-element text-base">HTML/CSS (Pug/Sass)</li>
-            <li class="list-element text-base">SQL</li>
+            <li class="list-element text-base">Well any language is fine.</li>
         </ul>
 
         <ul class="flex-1">
@@ -53,15 +55,16 @@
             <li class="list-element text-base">Tailwind CSS</li>
             <li class="list-element text-base">Phaser.Js</li>
             <li class="list-element text-base">OpenGL</li>
+            <li class="list-element text-base">Everything as well.</li>
         </ul>
 
         <ul class="flex-1">
             <h3>Tools:</h3>
             <li class="list-element text-base">Linux</li>
-            <li class="list-element text-base">MariaDB</li>
             <li class="list-element text-base">Postgres</li>
             <li class="list-element text-base">Redis</li>
             <li class="list-element text-base">Vim</li>
+            <li class="list-element text-base">Hands?</li>
         </ul>
     </section>
     
