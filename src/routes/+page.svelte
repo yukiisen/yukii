@@ -16,7 +16,7 @@
 <h1 class="before-deco">{ header }|</h1>
 <article class="before-deco">
     <p>
-        Hi! I'm <b>Yuki</b>— a developer makes some stuff, I also play osu a lot.. like a really a lot!, Nice to have you here!
+        Hi! I'm <b>Yuki</b>— a developer who makes some stuff, I also play osu a lot.. like a really a lot!, Nice to have you here!
     </p>
     <p>
         I love low level stuff and I'm always happy to see the entire tech community burn due to bad engineers and bad decisions!
@@ -64,7 +64,7 @@
             <li class="list-element text-base">Postgres</li>
             <li class="list-element text-base">Redis</li>
             <li class="list-element text-base">Vim</li>
-            <li class="list-element text-base">Hands?</li>
+            <li class="list-element text-base">hands?</li>
         </ul>
     </section>
     
