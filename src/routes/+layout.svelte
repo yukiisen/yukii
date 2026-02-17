@@ -2,7 +2,7 @@
 	import '../app.css';
     import ScreenEffect from './ScreenEffect.svelte';
     import NavBar from './NavBar.svelte';
-    import config from '$lib/config';
+    import { config } from '$lib/config';
 
 	let { children } = $props();
 </script>
@@ -10,7 +10,7 @@
 <!-- the weird screen effect -->
 <ScreenEffect />
 
-<section class="bg-background p-3 pt-1 w-full min-h-[100vh] overflow-y-hidden">
+<section class="bg-background p-3 pt-1 w-full min-h-screen overflow-y-hidden">
     <NavBar />
     <main class="md:mx-[10%] md:mt-5 relative p-3 md:p-5 z-2">
         <span class="absolute top-0 left-0 w-6 h-6 border-t-2 border-l-2 border-text"></span>

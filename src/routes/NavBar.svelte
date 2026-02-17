@@ -1,7 +1,7 @@
 <script lang="ts">
     import { page } from "$app/state";
     import { onMount } from "svelte";
-    import config from "$lib/config";
+    import { config } from "$lib/config";
 
     const tabs = [
         ["/", "Console"],

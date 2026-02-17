@@ -1,23 +1,10 @@
 <script lang="ts">
     import { sleep } from "$lib/utils";
     import { onMount } from "svelte";
-    import config from "$lib/config";
+    import { config, projects_d_lblawi, clips_d_lblawi } from "$lib/config";
 
     let fHeader = "Archive";
     let header = $state(fHeader[0]); 
-
-    interface ProjectInfo {
-        name: string,
-        repo: string,
-        description: string
-    }
-
-    const projects_d_lblawi: ProjectInfo[] = [
-        { name: "Herta", repo: "herta", description: "An AI bot that can chat with your friends instead of you." },
-        { name: "Svr", repo: "svr", description: "A minimal static http server cli built from scratch in rust" },
-        { name: "Stress", repo: "stress", description: "an http library built from scratch in rust." },
-        { name: "Kiri", repo: "kiri", description: "A fast and small fuzzy finder for the terminal." },
-    ]
 
     onMount(async () => {
         for (const letter1 of fHeader.split("").slice(1)) {
@@ -48,6 +35,21 @@
         </div>
         <span class="w-full text-right">Unavailable</span>
     </div>
+</section>
+
+<article class="before-deco my-4">
+    <h1 class="mb-2">Osu!clips:</h1>
+    <p>Some Random Osu replays of mine.</p>
+</article>
+
+<section class="grid grid-cols-1 md:grid-cols-2 py-2 before-deco md:mr-4">
+    {#each clips_d_lblawi as { player, mapName, replay }}
+        <div class="border-2 border-text flex flex-col justify-between my-1 md:m-1 p-2">
+            <a href={`/archive/clips/${replay}`}>
+                <p>{ player } playing { mapName }</p>
+            </a>
+        </div>
+    {/each}
 </section>
 
 <style>
