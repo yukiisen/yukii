@@ -1,7 +1,7 @@
 <script lang="ts">
     import { sleep } from "$lib/utils";
     import { onMount } from "svelte";
-    import config from "$lib/config";
+    import { config } from "$lib/config";
 
     let fHeader = "Bunker";
     let header = $state(fHeader[0]);

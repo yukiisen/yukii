@@ -1,7 +1,7 @@
 <script lang="ts">
     import "../../../markdown.css";
     import type { PageProps } from "./$types";
-    import config from "$lib/config";
+    import { config } from "$lib/config";
 
     interface PageData {
         html: string,
