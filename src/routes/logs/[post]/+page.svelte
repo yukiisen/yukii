@@ -2,6 +2,8 @@
     import type { PageProps } from "./$types";
     import { config } from "$lib/config";
 
+    import "$lib/styles/markdown.css";
+
     interface PageData {
         html: string,
         post: string
