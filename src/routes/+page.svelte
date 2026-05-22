@@ -13,50 +13,13 @@
 </article>
 
 <article class="sub before-deco">
-    <h2 class="list-element">Skills:</h2>
-
-    <section class="skills flex flex-wrap ml-4 md:ml-10 my-2">
-        <ul class="flex-1">
-            <h3>Languages:</h3>
-            <li class="list-element text-base">Rust</li>
-            <li class="list-element text-base">Javascript/Typescript (bun/node)</li>
-            <li class="list-element text-base">Dart</li>
-            <li class="list-element text-base">Python</li>
-            <li class="list-element text-base">Zig</li>
-            <li class="list-element text-base">C/C++</li>
-            <li class="list-element text-base">Assembly (linux x86_64)</li>
-            <li class="list-element text-base">HTML/CSS (Pug/Sass)</li>
-            <li class="list-element text-base">Well any language is fine.</li>
-        </ul>
-
-        <ul class="flex-1">
-            <h3>Frameworks and libraries:</h3>
-            <li class="list-element text-base">Angular</li>
-            <li class="list-element text-base">Svelte</li>
-            <li class="list-element text-base">Basic React</li>
-            <li class="list-element text-base">Express.JS</li>
-            <li class="list-element text-base">Elysia</li>
-            <li class="list-element text-base">Actix</li>
-            <li class="list-element text-base">Sveltekit</li>
-            <li class="list-element text-base">Flutter</li>
-            <li class="list-element text-base">Electron</li>
-            <li class="list-element text-base">Capacitor</li>
-            <li class="list-element text-base">Tailwind CSS</li>
-            <li class="list-element text-base">Phaser.Js</li>
-            <li class="list-element text-base">OpenGL</li>
-            <li class="list-element text-base">Everything as well.</li>
-        </ul>
-
-        <ul class="flex-1">
-            <h3>Tools:</h3>
-            <li class="list-element text-base">Linux</li>
-            <li class="list-element text-base">Postgres</li>
-            <li class="list-element text-base">Redis</li>
-            <li class="list-element text-base">Vim</li>
-            <li class="list-element text-base">hands?</li>
-        </ul>
+    <h2 class="list-element">Currently:</h2>
+    <section class="ml-4 md:ml-10 my-2 space-y-2">
+        <p class="list-element text-base">Finding excuses to try every programing language</p>
+        <p class="list-element text-base">Fighting with dwl to make it do what I want</p>
+        <p class="list-element text-base">Slowly losing my sanity to osu! (6 digit)</p>
+        <p class="list-element text-base">Figuring out how to make an AI waifu because what's what nerds do</p>
     </section>
-    
 </article>
 
 <article class="sub before-deco">
@@ -82,8 +45,4 @@
 </article>
 
 <style>
-.skills ul {
-    min-width: fit-content;
-    margin-bottom: 15px;
-}
 </style>
