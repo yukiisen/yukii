@@ -1,19 +1,8 @@
 <script lang="ts">
-    import { sleep } from "$lib/utils";
-    import { onMount } from "svelte";
-
-    let fHeader = "Kuru Kuru!";
-    let header = $state(fHeader[0]); 
-
-    onMount(async () => {
-        for (const letter1 of fHeader.split("").slice(1)) {
-            header += letter1;
-            await sleep(50);
-        }
-    })
+    import Typewriter from "$lib/components/Typewriter.svelte";
 </script>
 
-<h1 class="before-deco">{ header }|</h1>
+<h1 class="before-deco"><Typewriter text="Kuru Kuru!" /></h1>
 <article class="before-deco">
     <p>
         Hi! I'm <b>Yuki</b>— a developer who makes some stuff, I also play osu a lot.. like a really a lot!, Nice to have you here!

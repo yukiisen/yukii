@@ -1,31 +1,11 @@
 <script lang="ts">
-    import { sleep } from "$lib/utils";
-    import { onMount } from "svelte";
-
-    let fHeader = "Logs";
-    let header = $state(fHeader[0]); 
-
-    onMount(async () => {
-        for (const letter1 of fHeader.split("").slice(1)) {
-            header += letter1;
-            await sleep(50);
-        }
-    })
-
-    interface Blog {
-        title: string
-        page: string
-        description: string
-    }
-
-    let blogs: Blog[] = [
-        { title: "Why bourak is supreme?", page: 'bourak', description: "A blog about bourak supremeacy" },
-    ]
+    import Typewriter from "$lib/components/Typewriter.svelte";
+    import blogs from "$lib/content/blogs.json";
 </script>
 
 
 <article class="before-deco">
-    <h1>{ header }|</h1>
+    <h1><Typewriter text="Logs" /></h1>
     <p>This is supposed to be a place where I do my random yapping if I feel like it.</p>
 </article>
 

@@ -1,19 +1,8 @@
 <script lang="ts">
-    import { sleep } from "$lib/utils";
-    import { onMount } from "svelte";
-
-    let fHeader = "Status";
-    let header = $state(fHeader[0]); 
-
-    onMount(async () => {
-        for (const letter1 of fHeader.split("").slice(1)) {
-            header += letter1;
-            await sleep(50);
-        }
-    })
+    import Typewriter from "$lib/components/Typewriter.svelte";
 </script>
 
-<h1 class="before-deco">{ header }|</h1>
+<h1 class="before-deco"><Typewriter text="Status" /></h1>
 
 <article class="before-deco">
     <p>this page is inspired by the now page from <a href="https://nownownow.com/about">That guy</a>, its purpose is to hold my random impossible projects and show what's going on with me right now.</p>

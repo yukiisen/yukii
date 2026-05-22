@@ -1,5 +1,5 @@
 <script lang="ts">
-    import "../../../markdown.css";
+    import "$lib/styles/markdown.css";
     import type { PageProps } from "./$types";
     import { config } from "$lib/config";
 

@@ -3,9 +3,6 @@ import { marked } from "marked";
 import * as kit from "@sveltejs/kit";
 
 const BASEURL = "https://raw.githubusercontent.com/yukiisen";
-export const csr = true;
-export const ssr = false;
-
 export const load: PageLoad = async ({ params }) => {
     const repo = params.repo;
 

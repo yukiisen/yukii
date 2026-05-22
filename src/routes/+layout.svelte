@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css';
-    import ScreenEffect from './ScreenEffect.svelte';
-    import NavBar from './NavBar.svelte';
+    import ScreenEffect from '$lib/components/ScreenEffect.svelte';
+    import NavBar from '$lib/components/NavBar.svelte';
     import { config } from '$lib/config';
 
 	let { children } = $props();

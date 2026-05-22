@@ -2,9 +2,6 @@ import type { PageLoad } from "./$types";
 import { marked } from "marked";
 import * as kit from "@sveltejs/kit";
 
-export const ssr = false;
-export const csr = true;
-
 export const load: PageLoad = async ({ params }) => {
     const post = params.post;
 

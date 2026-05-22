@@ -1,0 +1,74 @@
+.md pre {
+    background-color: var(--color-text);
+    color: var(--color-background);
+    padding: 10px;
+    overflow: auto;
+}
+
+.md code {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.md :not(pre) > code {
+    background-color: #aca692;
+    color: #3a3833;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.md h1::before, .md h2::before, .md h3::before, .md h4::before,
+.md h5::before, .md h6::before, .md li::before {
+    content: "✦";
+    margin-right: 0.5rem;
+    color: #090909;
+    display: inline-block;
+}
+
+.md h1, .md h2, .md h3, .md h4, .md h5, .md h6 {
+    margin: 20px 0 8px;
+}
+
+.md h1:first-child, .md h2:first-child, .md h3:first-child {
+    margin-top: 0;
+}
+
+.md ul, .md ol {
+    padding-left: 24px;
+    margin: 8px 0;
+}
+
+.md li {
+    margin: 4px 0;
+}
+
+.md p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.md th, .md td {
+    border: 1px solid var(--color-text);
+    padding: 6px 10px;
+}
+
+.md img {
+    max-width: 100%;
+}
+
+.md a {
+    font-weight: 600;
+}
+
+.md blockquote {
+    border-left: 3px solid var(--color-text);
+    padding-left: 12px;
+    margin: 10px 0;
+    opacity: 0.8;
+}
+
+.md hr {
+    border: none;
+    border-top: 1px solid var(--color-text);
+    margin: 20px 0;
+}
