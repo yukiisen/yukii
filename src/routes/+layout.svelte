@@ -27,6 +27,6 @@
 
         <span class="text-sm md:text-base">Made by <b>{config.name}</b></span>
         <span class="text-sm md:text-base">Glory to Mankind</span>
-        <span class="text-sm md:text-base">Copyright &copy; {config.name} 2025</span>
+        <span class="text-sm md:text-base">Copyright &copy; {config.name} 2026</span>
     </footer>
 </section>
