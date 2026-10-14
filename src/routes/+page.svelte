@@ -15,7 +15,7 @@
 <article class="sub before-deco">
     <h2 class="list-element">Skills:</h2>
 
-    <section class="skills flex flex-wrap ml-4 md:ml-10 my-2">
+    <section class="skills flex flex-wrap md:ml-8 my-2">
         <ul class="flex-1">
             <h3>Languages:</h3>
             <li class="list-element text-base">Rust</li>
