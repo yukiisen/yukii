@@ -4,5 +4,6 @@
     { "name": "Stress", "repo": "stress", "description": "an http library built from scratch in rust." },
     { "name": "Kiri", "repo": "kiri", "description": "A fast and small fuzzy finder for the terminal." },
     { "name": "funch", "repo": "funch", "description": "Launch all your linux games from a single place." },
+    { "name": "OST", "repo": "ost", "description": "A browser-based stamina / stream-speed trainer for osu! players." },
     { "name": "Hana", "repo": "hana", "description": "Live Osu Leaderboard in Browser" }
 ]
